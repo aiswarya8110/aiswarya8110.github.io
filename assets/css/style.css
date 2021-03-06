@@ -18,6 +18,7 @@ body{
     margin:0;
     font-family: 'Montserrat';
     font-size: 0.8rem;
+    background-color: #fff;
 }
 
 ul{
@@ -60,7 +61,7 @@ nav{
     box-shadow: 0px 0px 10px rgba(158, 157, 157, 0.253);
     z-index: 10;
     background-color: #fff;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 nav.hide{
@@ -208,7 +209,7 @@ nav span:hover{
     flex-wrap: wrap;
     width:100%;
     min-height: 100vh;
-
+    padding:30px 0px;
 }
 .skills-text{
     width:400px;
@@ -216,7 +217,7 @@ nav span:hover{
     box-shadow: 0px 0px 20px rgba(235, 232, 232, 0.774);
     margin: auto;
     background-color: #fff;
-    margin: 30px 0;
+    
 }
 .skill-img{
     width:800px;
@@ -532,10 +533,10 @@ input:focus{
     font-size: 1rem;
     
 }
-.copy-rights p{
+.copy-rights small{
     color: var(--dark-blue);
 }
-.copy-rights p span{
+.copy-rights small span{
     color: var(--primary-color);
 }
 
@@ -592,12 +593,16 @@ input:focus{
     .main-text .accounts a{
         font-size: 1.4rem;
     }
+
     .skills-heading h2{
         font-size: 1.8rem;
     }
     .skill-img{
         height: 300px;
         width: 400px;
+    }
+    .skills-text .s-box-container .skill-box .s-box-text strong{
+        font-size: 0.9rem;
     }
     .works-heading h3{
         font-size: 1.8rem;
@@ -609,6 +614,9 @@ input:focus{
     .w-img-container img{
            height: 200px;
            width: 200px;
+    }
+    .w-img-container p{
+        font-size: 0.8rem;
     }
     .resume .course .course-name .university{
         font-size: 0.8rem;
