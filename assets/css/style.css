@@ -216,6 +216,7 @@ nav span:hover{
     box-shadow: 0px 0px 20px rgba(235, 232, 232, 0.774);
     margin: auto;
     background-color: #fff;
+    margin: 30px 0;
 }
 .skill-img{
     width:800px;
@@ -538,7 +539,7 @@ input:focus{
     color: var(--primary-color);
 }
 
-@media(max-width:600px){
+@media(max-width:800px){
     nav{
         width: 50%;
         height:100vh;
